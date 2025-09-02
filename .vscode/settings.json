@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "makefile": "cmake",
+    "Makefile": "makefile",
+    "tester.h": "c"
+  }
+}

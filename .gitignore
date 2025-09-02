@@ -484,3 +484,5 @@ $RECYCLE.BIN/
 *.swp
 #all exe
 *.exe
+#headers
+*.h
