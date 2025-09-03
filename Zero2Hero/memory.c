@@ -12,5 +12,6 @@ int main(int argc, char *argv[])
     *ptr = 42;
     printf("This is the allocated pointer value: %d\n here is its address: %p\\n", *ptr, (void *)ptr);
     free(ptr);
+    ptr = NULL;
     return 0;
 }
