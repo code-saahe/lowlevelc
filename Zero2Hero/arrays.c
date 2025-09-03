@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "tester.h"
 #define MAX_NUM 51
 int main()
 {
