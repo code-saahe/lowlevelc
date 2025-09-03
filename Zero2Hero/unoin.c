@@ -7,6 +7,7 @@ union Grade
 };
 int main(int argc, char *argv[])
 {
+
     union Grade myStudent = {
         .letterGrade = 'A',
     };

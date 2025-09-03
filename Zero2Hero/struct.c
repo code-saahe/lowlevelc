@@ -14,7 +14,7 @@ void showOff(char *names[], int len)
     }
     return;
 };
-struct Person
+__attribute__((__packed__)) struct Person // packed attributes
 {
     char *name;
     int age;
