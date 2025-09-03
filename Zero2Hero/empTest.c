@@ -8,6 +8,7 @@ struct person
     char name[64];
     float wallet;
 };
+
 void add_employee(struct person per[], int len, char *empName, float money)
 {
     for (int i = 0; i < len; i++)
@@ -33,5 +34,6 @@ int main(int argc, char *argv[])
     {
         printf("%d\n%s\n%.2f\n", employees[i].id, employees[i].name, employees[i].wallet);
     }
+
     return 0;
 }
