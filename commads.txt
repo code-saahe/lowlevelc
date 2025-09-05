@@ -1,0 +1,6 @@
+#make code compadatible with valgrind{
+    gcc -o program code.c -g
+}
+#check form memory leaks{
+    valgrind --leak-check=full ./program
+}

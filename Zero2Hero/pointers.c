@@ -48,6 +48,7 @@ int main()
     get_employee_intfo(&employee[1]);
     get_employee_intfo(&employee[2]);
     get_employee_intfo(&employee[3]);
+    printf("the size of employees is: %ld\n", (z * sizeof(struct employee_t)) / sizeof(struct employee_t));
     free(employee);
     employee = NULL;
     tracker();

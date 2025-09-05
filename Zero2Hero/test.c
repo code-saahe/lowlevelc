@@ -18,7 +18,7 @@ int main()
     size_t my_size = 5;
     size_t my_new_size = 10;
     int *ars = malloc(my_size * sizeof(int));
-    printf("%d\n", (my_size * sizeof(int)) / sizeof(int)); // lenght of arrays formula
+    printf("%ld\n", (my_size * sizeof(size_t)) / sizeof(size_t)); // lenght of arrays formula
     for (size_t i = 0; i < my_size; i++)
     {
         ars[i] = i;
