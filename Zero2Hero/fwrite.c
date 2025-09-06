@@ -17,6 +17,7 @@ int main()
     if (-1 == write(faile, text, strlen(text)))
     {
         perror("write");
+        close(faile);
         return -1;
     }
     close(faile);
