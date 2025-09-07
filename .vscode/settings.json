@@ -4,6 +4,7 @@
     "Makefile": "makefile",
     "tester.h": "c",
     "stat.h": "c",
-    "types.h": "c"
+    "types.h": "c",
+    "funcinter.h": "c"
   }
 }
